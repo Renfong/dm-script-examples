@@ -8,9 +8,7 @@ class TestUI : UIFrame	{
 	TagGroup EntryText
 	
 	TestUI(object self){
-		true=1
-		false=0
-		ver=1.0
+		true=1; false=0; ver=1.0
 		result("TestUI ["+self.ScriptObjectGetID()+"] constructed")
 	};
 	
