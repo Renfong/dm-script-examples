@@ -9,11 +9,11 @@ class TestUI : UIFrame	{
 	
 	TestUI(object self){
 		true=1; false=0; ver=1.0
-		result("TestUI ["+self.ScriptObjectGetID()+"] constructed")
+		result("TestUI ["+self.ScriptObjectGetID()+"] constructed\n")
 	};
 	
 	~TestUI(object self){
-		result("TestUI ["+self.ScriptObjectGetID()+"] destructed")
+		result("TestUI ["+self.ScriptObjectGetID()+"] destructed\n")
 	};
 	
 	void GetImgName(object self)	{
